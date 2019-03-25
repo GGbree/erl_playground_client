@@ -1,0 +1,9 @@
+[submodule "plibsys"]
+    path = external/plibsys
+    url = https://github.com/saprykin/plibsys.git
+    branch = master
+
+[submodule "protobuf"]
+    path = external/protobuf
+    url = https://github.com/protocolbuffers/protobuf.git
+    branch = 3.7.x
