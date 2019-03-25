@@ -6,7 +6,7 @@
 #include <plibsys.h>
 #include <psocket.h>
 #include "../proto/erl_playground.pb.h"
-#define MAX_MESSAGE_LENGTH 1024
+#define MAX_MESSAGE_LENGTH 258
 #define SERVER_PORT 9900
 
 using namespace std;
@@ -150,7 +150,7 @@ int client_loop(string address, string username)
 		}
 
 		send_message(message);
-		wait(500);
+		wait(100);
 
 	}
 
